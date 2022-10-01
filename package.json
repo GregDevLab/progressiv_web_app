@@ -1,0 +1,16 @@
+{
+  "name": "pwa_veille",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "jserve": "json-server -p 3001 --watch db.json",
+    "start": "live-server --port=3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "web-push": "^3.5.0"
+  }
+}

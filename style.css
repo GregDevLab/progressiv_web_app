@@ -1,0 +1,31 @@
+body {
+    background-color: #d3c7dc;
+}
+
+.center{
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: rgb(30, 30, 30);
+}
+
+.center > a {
+    color: rgb(227, 223, 223);
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.center > a.active{
+    color: rgb(2, 205, 185);
+}
+
+#technos {
+    box-shadow: 1px 1px 10px rgba(47, 47, 47, 0.132);
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.spacer{
+    padding: 10px 0;
+}
